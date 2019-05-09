@@ -1,0 +1,385 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+}
+
+a
+{
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+}
+
+#top 
+{
+    z-index: 5;
+    height: 30px;
+    padding-left: 90px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(204, 204, 204);
+}
+.p1
+{
+    
+    position: relative;
+    bottom: 10px;
+    font-size: 17px;
+}
+
+.icon
+{
+    position: relative;
+    left: 50px;
+}
+.p2
+{
+    position: relative;
+    left: 750px;
+}
+
+
+.navbar
+{
+    float:left;
+    padding-right:15px;
+}
+
+.ulist 
+{
+    list-style: none;
+    margin: 0;   
+    padding-top: 35px;
+    font-size: 20px;
+    
+}
+
+nav ul li
+{
+    padding-left: 10px;
+}
+nav ul li:hover
+            {
+                color: white;
+                
+                
+            }
+nav
+{  
+    z-index:4; 
+    width:100%;
+    height: 82px;
+    margin: 0;
+    position:sticky;
+    top:0px;
+    background-color: gainsboro;
+}
+.logo 
+{
+    float: left;
+}
+nav .logo1 
+{
+ float: left; 
+ padding-right:10px;
+    padding-left: 5px;
+    
+}
+
+.topic
+{
+    float: left;
+    padding-top: 26px;
+    font-size: 30px;
+    padding-right: 35px;
+    font-family: Times New Roman;
+    color: black;
+}
+
+
+.search 
+{
+    float: right;
+    border-radius: 50px;
+    height: 30px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    background-color: aliceblue;
+    margin-top: -33px;
+    position:relative;
+    top: 18px;
+    right:10px;
+}
+.search i
+{
+    position: relative;
+    left:15px;
+    top:7px;
+}
+
+.mid
+{   
+    
+    height: 545px;
+    background: url(../image/staff.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+        
+}
+.book
+{
+    z-index: 0;
+    background-color: rgba(0,0,0,0.5);
+    width:900px;
+    height:140px;
+    border-radius: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    top:-500px;
+    left:10px;
+    
+    animation-name:booking;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes booking
+{
+    0% { top:-500px; }
+    100% {top: 40px; }
+    
+}
+
+.book input
+{
+    padding:10px;
+    margin :47px 5px 0px 0px;
+    border: none;
+    height:40px;
+    border-radius: 10px;
+    width:300px;
+    
+}
+.book button
+{
+    padding:10px;
+    margin :47px 5px 0px 0px;
+    border: none;
+    height:40px;
+    border-radius: 10px;
+    width:150px;
+}
+
+#start
+{
+    position:relative;
+    right:10px;
+    border:none;
+    height:29px;
+
+}
+#sr
+{
+    position:relative;
+    left:50px;
+}
+#bbs
+{
+    cursor: pointer;
+    padding: 0px 30px;
+    background-color: white;
+}
+
+
+.article
+{
+    
+    height: 670px;
+    width: 100%;
+    background-color: white;
+    
+   
+}
+.mainart
+{
+    width:80%;
+    height:600px;
+    padding: 30px;
+    margin: auto;
+    
+    
+    
+    
+}
+.toparticle
+{
+    height:300px;
+    width: 100%;
+    
+    position: relative;
+    display: flex;
+}
+.article1
+{
+    height:300px;
+    width: 50%;
+    border: 1px solid;
+    
+   float: left;
+    
+    margin-right: 10px;
+    border-radius: 5px;
+    box-sizing: content-box;
+    padding-left: 20px;
+    
+}
+
+
+.article2
+{
+    height:300px;
+    margin-bottom: 5px;
+    width: 50%;
+    border: 1px solid;
+    float: left;
+    border-radius: 5px;
+   box-sizing: content-box;
+    
+    
+}
+.hod
+{
+    align-items: center;
+    color: black;
+}
+
+.article2 img
+{
+    
+    width:120px;
+    height:120px;
+    border-radius:5px;
+    position: relative;
+    left:180px;
+}
+
+.botarticle
+{
+    height:300px;
+    width: 100%;
+    
+    position: relative;
+    display: flex;
+}
+.article3
+{
+  height:300px;
+    width: 50%;
+    border: 1px solid;
+    
+   float: left;
+    
+    margin-right: 10px;
+    border-radius: 5px;
+    box-sizing: content-box;
+    padding-left: 20px;
+    
+    
+}
+
+
+
+.article4
+{
+    height:300px;
+    
+    width: 50%;
+    border: 1px solid;
+    float: left;
+    
+    border-radius: 5px;
+   box-sizing: content-box;
+    
+    
+}
+
+
+
+
+.heading
+{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: crimson;
+}
+
+.mainart p
+{
+    text-align: center;
+    
+    
+}
+.icon1 
+{
+    float: left;
+    padding-left:20px;
+    
+}
+section div ul
+{
+    list-style: none;
+}
+
+.headingart
+{
+    text-align: center;
+}
+.news 
+{
+    text-align: Center;
+    
+}
+.route 
+{
+    
+    float: left; 
+    padding-left: 30px;
+}
+.footer
+{
+    
+    width:100%;
+    height: 70px;
+    padding-left: 135px;
+    box-sizing: border-box;
+    display: flex;
+    background-color:rgb(204, 204, 204) ;
+     
+}
+.footer p
+{
+    position: relative;
+    top:16px;
+}
+
+.footer img
+{
+    position: relative;
+    left: 630px;
+    top:5px;
+    width:80px;
+    height:60px;
+}
